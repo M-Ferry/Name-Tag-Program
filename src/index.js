@@ -6,7 +6,10 @@ import "./styles.css";
 const App = () => (
   <div className="App">
     <h1>Name Tag Generator</h1>
-    <NameTag />
+    <NameTag name={"Margaret"} />
+    <NameTag name={"Carrie"} />
+    <NameTag name={"Joe"} />
+    <NameTag name={"James"} />
   </div>
 );
 
